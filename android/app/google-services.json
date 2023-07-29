@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "94385791237",
+    "project_id": "betteredu-website",
+    "storage_bucket": "betteredu-website.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94385791237:android:ec62388a0854a9e22d576c",
+        "android_client_info": {
+          "package_name": "com.example.plswork"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94385791237-6e4r80ferbnotcp7mhu6mbhbju3gkgpv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1SvuKHnQnftOghdVJ-rxjwZSRJtrErFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94385791237-6e4r80ferbnotcp7mhu6mbhbju3gkgpv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "94385791237-2dd04aegpaj1pkl2s50nh5sqpv9stbjc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.plswork.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
