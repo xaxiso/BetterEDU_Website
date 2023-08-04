@@ -15,6 +15,7 @@ class NavigationBarMobile extends StatelessWidget {
           IconButton(
             icon: const Icon(Icons.menu),
             onPressed: () {},
+            color: Colors.white,
           ),
           const NavBarLogo()
         ],

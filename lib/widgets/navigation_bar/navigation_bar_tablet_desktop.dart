@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../constants/app_colors.dart';
+import '../../routing/route_names.dart';
 import 'navbar_logo.dart';
 import 'navbar_item.dart';
 
@@ -10,7 +11,7 @@ class NavigationBarTabletDesktop extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        height: 100,
+        height: 200,
         child: const Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
@@ -18,23 +19,26 @@ class NavigationBarTabletDesktop extends StatelessWidget {
             Row(
               mainAxisSize: MainAxisSize.min,
               children: <Widget>[
-                NavBarItem('About'),
+                NavBarItem('Home', HomeRoute),
                 SizedBox(
                   width: 60,
                 ),
-                NavBarItem('Programs'),
+                NavBarItem('About', AboutRoute),
                 SizedBox(
                   width: 60,
                 ),
-                NavBarItem('Information'),
+                NavBarItem('Sponsors', SponsorsRoute),
                 SizedBox(
                   width: 60,
                 ),
-                NavBarItem('Resources'),
+                NavBarItem('Contact', ContactRoute),
                 SizedBox(
                   width: 60,
                 ),
-                NavBarItem('Donate'),
+                NavBarItem('Donate', DonateRoute),
+                SizedBox(
+                  width: 60,
+                ),
               ],
             ),
           ],
