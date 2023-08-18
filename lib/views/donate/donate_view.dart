@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../constants/app_colors.dart';
 import '../../widgets/call_to_action/call_to_action.dart';
 
 class DonateView extends StatelessWidget {
@@ -9,8 +10,20 @@ class DonateView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.center,
-      mainAxisAlignment: MainAxisAlignment.center,
+      mainAxisAlignment: MainAxisAlignment.start,
       children: [
+        Container(
+          child: Text(
+              'Donate',
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                color: primaryColor,
+                fontWeight: FontWeight.w600,
+                fontSize: 45,
+              )
+          ),
+          padding: EdgeInsets.all(15.0),
+        ),
         Container(
           padding: EdgeInsets.all(30.0),
           child: Text(

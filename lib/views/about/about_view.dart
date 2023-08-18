@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../constants/app_colors.dart';
+
 class AboutView extends StatelessWidget {
   const AboutView ({super.key});
 
@@ -7,10 +9,22 @@ class AboutView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.center,
-      mainAxisAlignment: MainAxisAlignment.center,
+      mainAxisAlignment: MainAxisAlignment.start,
       children: [
-        SizedBox(
-          height: 40
+        // SizedBox(
+        //   height: 40
+        // ),
+        Container(
+          child: Text(
+              'About',
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                color: primaryColor,
+                fontWeight: FontWeight.w600,
+                fontSize: 45,
+              )
+          ),
+          padding: EdgeInsets.all(15.0),
         ),
         Container(
           padding: EdgeInsets.all(30.0),
@@ -20,7 +34,7 @@ class AboutView extends StatelessWidget {
             style: TextStyle(
               color: Colors.white,
               fontWeight: FontWeight.w500,
-              fontSize: 40
+              fontSize: 30
             )
           ),
         ),
@@ -28,8 +42,8 @@ class AboutView extends StatelessWidget {
         //   height: 10,
         // ),
         SizedBox(
-          height: 400,
-          width: 600,
+          height: 300,
+          width: 500,
           child: Image.asset('mentalHealth.jpg')
         )
       ],

@@ -1,10 +1,53 @@
 import 'package:flutter/material.dart';
+import 'package:plswork/constants/app_colors.dart';
 
 class ContactView extends StatelessWidget {
   const ContactView({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.center,
+      mainAxisAlignment: MainAxisAlignment.start,
+
+      children: [
+        Container(
+          child: Text(
+            'Contact',
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              color: primaryColor,
+              fontWeight: FontWeight.w600,
+              fontSize: 45,
+            )
+          ),
+          padding: EdgeInsets.all(15.0),
+        ),
+        Container(
+          child: Text(
+            'We are accepting sponsors!',
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              color: Colors.white,
+              fontWeight: FontWeight.w400,
+              fontSize: 25,
+            )
+          ),
+          padding: EdgeInsets.all(30.0),
+        ),
+        Container(
+          child: Text(
+              'Reach us at:\nunirecoverteam@gmail.com',
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                color: Colors.white,
+                fontWeight: FontWeight.w400,
+                fontSize: 24,
+              )
+          ),
+          padding: EdgeInsets.all(30.0),
+        )
+      ],
+    );
   }
 }
