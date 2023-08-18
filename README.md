@@ -1,6 +1,6 @@
 # BetterEDU Website
 
-This project is for an internship that I was part of the founding startup company. The website was built and designed completely by myself.
+This project is for an internship that I was part of the founding startup company. 'BetterEDU' is meant help raise awareness for mental health among college students and is a platform that they can comfortably reach out for any concerns of their mental health problems. The website was built and designed completely by myself.
 
 ## How to run:
 
