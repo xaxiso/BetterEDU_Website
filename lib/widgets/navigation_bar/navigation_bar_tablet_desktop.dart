@@ -31,11 +31,11 @@ class NavigationBarTabletDesktop extends StatelessWidget {
                 SizedBox(
                   width: 60,
                 ),
-                NavBarItem('Contact', ContactRoute),
+                NavBarItem('Contact', DonateRoute),
                 SizedBox(
                   width: 60,
                 ),
-                NavBarItem('Donate', DonateRoute),
+                NavBarItem('Resources', ContactRoute),
                 SizedBox(
                   width: 60,
                 ),
